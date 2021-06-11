@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <form>
+        <label>Username:</label>
+        <input type="text" name="" id="username">
+        <label>password</label><br>
+        <input type="text" name="" id="password">
+        <input type="submit" onclick="check()">
+    </form>
+
+    <script>
+
+
+        function check() {
+            var user = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+            if (user == "anuj" && pass == "20") {
+                window.alert("ok");
+            }
+            else {
+                window.alert("please enter the correct username and password");
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
